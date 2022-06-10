@@ -1,5 +1,5 @@
 numpy
-imageio
+pillow
 scipy
 NeuroTools
 matplotlib
