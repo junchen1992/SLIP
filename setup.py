@@ -14,7 +14,7 @@ setup(
     author = "Laurent Perrinet INT - CNRS",
     author_email = "Laurent.Perrinet@univ-amu.fr",
     description = "SLIP: a Simple Library for Image Processing",
-    long_description=open("README.md", 'r', encoding='utf-8').read(),
+    long_description=open("README.md", 'r').read(),
     license = "GPLv2",
     install_requires=['numpy', 'imageio', 'NeuroTools'],
     extras_require={
