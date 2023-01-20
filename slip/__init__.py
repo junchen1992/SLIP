@@ -4,7 +4,7 @@ from __future__ import division, print_function, absolute_import
 __author__ = "(c) Laurent Perrinet INT - CNRS"
 __version__ = '20191113'
 __licence__ = 'GPLv2'
-from .SLIP import Image, imread
+from .slip import Image, imread
 ############################  FIGURES   ########################################
 def init_pylab():
     from NeuroTools import check_dependency
