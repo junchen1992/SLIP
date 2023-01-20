@@ -2,9 +2,9 @@
 # -*- coding: utf8 -*-
 from setuptools import setup, find_packages
 
-NAME = "SLIP"
-import SLIP
-VERSION = SLIP.__version__ # << to change in __init__.py
+NAME = "slip"
+import slip
+VERSION = slip.__version__ # << to change in __init__.py
 
 
 setup(
@@ -16,7 +16,7 @@ setup(
     description = "SLIP: a Simple Library for Image Processing",
     long_description=open("README.md", 'r').read(),
     license = "GPLv2",
-    install_requires=['numpy', 'imageio', 'NeuroTools'],
+    install_requires=['numpy', 'NeuroTools'],
     extras_require={
                 'html' : [
                          'vispy',
